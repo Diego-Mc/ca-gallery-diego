@@ -802,5 +802,5 @@ fieldset[disabled] .btn-xl:hover {
 }
 
 .btn-header:hover {
-  outline: none;
+  border-color: none;
 }
