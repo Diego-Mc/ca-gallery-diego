@@ -793,7 +793,7 @@ fieldset[disabled] .btn-xl:hover {
 
 /* override */
 .btn-header {
-  border-radius: 2rem;
+  border-radius: 200px;
   outline: 2px white solid;
   background: none;
 }
