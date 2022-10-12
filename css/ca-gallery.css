@@ -794,7 +794,8 @@ fieldset[disabled] .btn-xl:hover {
 /* override */
 .btn-header {
   border-radius: 200px;
-  outline: 2px white solid;
+  border-collapse: separate;
+  border: 2px white solid;
   background: none;
 }
 
