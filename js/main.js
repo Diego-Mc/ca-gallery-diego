@@ -34,7 +34,7 @@ function getPortfolioItemHTML(project) {
           <i class="fa fa-plus fa-3x"></i>
         </div>
       </div>
-      <img class="img-fluid" src="img/portfolio/${project.id}.jpg" alt="" />
+      <img class="img-fluid" src="img/portfolio/${project.id}.png" alt="" />
     </a>
     <div class="portfolio-caption">
       <h4>${project.name}</h4>
@@ -63,7 +63,7 @@ function renderModal(ev) {
                   </p>
                   <img
                     class="img-fluid d-block mx-auto"
-                    src="img/portfolio/${project.id}-full.jpg"
+                    src="img/portfolio/${project.id}-full.png"
                     alt=""
                   />
                   <p>
@@ -74,14 +74,16 @@ function renderModal(ev) {
                     <li>Client: Coding Academy Project</li>
                     <li>Category: ${project.lables.join(', ')}</li>
                   </ul>
-                  <button
-                    class="btn btn-primary"
-                    data-dismiss="modal"
+                  <a
+                    class="btn btn-primary open-proj-btn"
                     type="button"
+                    style="cursor: pointer"
+                    href="${project.url}"
+                    target="_blank"
                   >
-                    <i class="fa fa-times"></i>
-                    Close Project
-                  </button>
+                    <i class="fa fa-compass"></i>
+                    Open Project
+                  </a>
                 </div>
               </div>
             </div>
